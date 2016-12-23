@@ -10,7 +10,12 @@ import org.apache.log4j.Logger;
 import com.google.common.base.Optional;
 
 import per.nonlone.expandtweak.common.Observable;
-
+/**
+ * 
+ * @author Nonlone
+ * @email thunderbird.shun@gmail.com
+ *
+ */
 public class ObservedThreadPool extends ThreadPoolExecutor implements Observable<Enum<ObservedThreadPool.State>> {
 
 	private static final Logger log = Logger.getLogger(ObservedThreadPool.class);
@@ -18,7 +23,8 @@ public class ObservedThreadPool extends ThreadPoolExecutor implements Observable
 	/**
 	 * 线程池状态
 	 * 
-	 * @author leishunyang
+	 * @author Nonlone
+	 * @email thunderbird.shun@gmail.com
 	 *
 	 */
 	public enum State {
