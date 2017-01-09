@@ -7,7 +7,7 @@
 	<properties>
 		<jdk.version>1.7</jdk.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<spring.version>4.0.6.RELEASE</spring.version>
+		<spring.version>4.3.3.RELEASE</spring.version>
 		<mybatis.version>3.2.7</mybatis.version>
 		<druid.version>1.0.7</druid.version>
 	</properties>
@@ -30,6 +30,11 @@
 			<artifactId>spring-core</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
 		<dependency>
 		    <groupId>org.springframework</groupId>
@@ -41,6 +46,12 @@
 		    <groupId>org.springframework</groupId>
 		    <artifactId>spring-jdbc</artifactId>
 		    <version>${spring.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.nutz</groupId>
+			<artifactId>nutz</artifactId>
+			<version>1.b.52</version>
 		</dependency>
 				
 		<!-- MyBatis -->
